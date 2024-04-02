@@ -1,9 +1,7 @@
-<h1>New friend</h1>
+<%= link_to "Go back", friends_path, class:"btn btn-dark" %>
 
-<%= render "form", friend: @friend %>
+<div class="container">
+  <h1>New friend</h1>
 
-<br>
-
-<div>
-  <%= link_to "Back to friends", friends_path %>
+  <%= render "form", friend: @friend %>
 </div>
